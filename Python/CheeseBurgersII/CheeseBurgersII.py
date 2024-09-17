@@ -31,7 +31,7 @@ def main():
                 buns2, petties2 = (S + D) * 2, S + (D * 2)
 
                 if petties1 > petties2:
-                    results.append(f'Case #{i}: {petties2}') 
+                    results.append(f'Case #{i}: {petties1}') 
                 else:
                     if buns2 > petties2:
                         results.append(f'Case #{i}: {petties2}')
